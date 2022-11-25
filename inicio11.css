@@ -1,0 +1,46 @@
+/*
+    Ejercicio 11 javascript
+    Linas Cijunskis Dodonova
+    25 de Noviembre de 2022
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+header{
+    text-align: center;
+}
+
+header,footer{
+    background-color: aqua;
+    padding: 20px;
+    box-shadow: -5px 5px 5px black;
+    text-shadow: 2px 2px 4px red;
+    background-image: radial-gradient(green, orange);
+    color: white;
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+body{
+    height: 100px;
+    background-image: linear-gradient(to left,green, orange);
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+
+main{
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio11</title>
+    <link rel="stylesheet" href="inicio11.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1>Ejercicio 11 JavaScript</h1>
+    </header>
+    <main>
+    <div id ="salida4"></div>
+    <div id ="salida3"></div>
+    <div id ="salida"></div>
+    <div id ="salida2"></div>
+    <script>
+        let dato1, dato2, num1, num2;
+        dato1 = window.prompt("Introduce primer número ?", "0");
+        num1 = parseInt(dato1);
+        dato2 = window.prompt("Introduce segundo número ?", "0");
+        num2 = parseInt(dato2);
+        let resultado = num1 * num2;
+        document.getElementById("salida4").innerHTML = (`El primer numero es ${num1} `);
+        document.write("</br>");
+        document.getElementById("salida3").innerHTML = (`El segundo numero es ${num2} `);
+        document.write("</br>");
+        document.getElementById("salida").innerHTML = (`La multiplicación es ${resultado} `);
+        let resultado2 = num1 - num2;
+        document.write("</br>");
+        document.getElementById("salida2").innerHTML = (`La Resta es ${resultado2} `);
+       </script>
+    </main>
+    <footer>Dennis Alvarez Rodriguez 2022@</footer>
+</body>
+</html>
